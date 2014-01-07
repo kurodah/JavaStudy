@@ -3,6 +3,7 @@ package practice.code;
 import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.LinkedHashMap;
+import java.util.TreeMap;
 
 public class MapPractice {
 	// ハッシュマップを試しに使ってみる
@@ -26,6 +27,17 @@ public class MapPractice {
 		}
 
 		return linkedHashMap;
+	}
+	
+	public TreeMap<String, String> treeMapPractice() {
+		TreeMap<String, String> treeMap = new TreeMap<String, String>();
+		String[] studentNumber = { "4","1", "2", "3" };
+		String[] studentName = { "Siro","Ichiro", "Jiro", "Saburo" };
+		for (int i = 0; i < studentNumber.length; i++) {
+			treeMap.put(studentNumber[i], studentName[i]);
+		}
+
+		return treeMap;
 	}
 
 }

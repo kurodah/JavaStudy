@@ -5,6 +5,7 @@ import static org.junit.Assert.assertEquals;
 import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.LinkedHashMap;
+import java.util.TreeMap;
 
 import org.junit.Test;
 
@@ -34,7 +35,17 @@ public class MapTest {
 				.linkedHashMapPractice();
 		String firstStudentName = linkedHashMap.get("1");
 		String secondStudentName = linkedHashMap.get("2");
-		assertEquals("Ichiro",firstStudentName);
-		assertEquals("Jiro",secondStudentName);
+		assertEquals("Ichiro", firstStudentName);
+		assertEquals("Jiro", secondStudentName);
+	}
+
+	@Test
+	public void treeMapTest() {
+		MapPractice mapPractice = new MapPractice();
+		TreeMap<String, String> treeMap = mapPractice.treeMapPractice();
+		String firstStudentName = treeMap.get("1");
+		String secondStudentName = treeMap.get("2");
+		assertEquals("Ichiro", firstStudentName);
+		assertEquals("Jiro", secondStudentName);
 	}
 }
