@@ -9,12 +9,12 @@ import java.util.TreeMap;
 
 import org.junit.Test;
 
-import practice.code.MapPractice;
+import practice.map.MapPractice;
 
 /**
  * 
- * @author kurodah hashMapに格納したデータがちゃんと入っているか確認するテスト。
- * 
+ * @author kurodah hashMapに格納したデータが入っているか確認するためのテスト。 ※データの並び順を確認するためのテストでは無い。
+ *         データの並び順はコンソールを通して確認する。
  */
 public class MapTest {
 

@@ -5,7 +5,7 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import practice.code.MainCode;
+import practice.main.MainCode;
 
 public class SampleTest {
 

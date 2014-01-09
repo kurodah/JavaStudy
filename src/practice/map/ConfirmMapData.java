@@ -1,4 +1,5 @@
-package practice.code;
+package practice.map;
+
 
 public class ConfirmMapData {
 	public void confirmHashMap() {

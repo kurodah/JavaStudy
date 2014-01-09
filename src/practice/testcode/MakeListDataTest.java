@@ -8,7 +8,7 @@ import org.junit.Test;
 
 import Entity.StudentDataEntity;
 
-import practice.code.MakeListData;
+import practice.list.MakeListData;
 
 
 public class MakeListDataTest {

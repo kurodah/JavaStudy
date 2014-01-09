@@ -1,4 +1,5 @@
-package practice.code;
+package practice.main;
+
 
 public class MainCode {
 	public static void main(String args[]) {

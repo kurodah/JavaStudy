@@ -1,4 +1,4 @@
-package practice.code;
+package practice.constract;
 
 public class ConstractPractice {
 
