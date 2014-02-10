@@ -1,2 +1,2 @@
 gitの練習
-developブランチで開発
+developブランチで開発 -追記-
